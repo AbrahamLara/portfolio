@@ -17,6 +17,7 @@ function App() {
             className="profile-pic"
             src={profilePic}
             alt="abraham lara granados"
+            draggable="false"
           />
           <div className="paragraphs">
             <div>
@@ -33,6 +34,35 @@ function App() {
               Aside from programming I enjoy playing video games and volleyball.
               I used to enjoy drawing as a kid and I feel like that had some
               influence in what I do now.
+            </div>
+          </div>
+        </div>
+        <div id="projects">
+          <div className="main-sub">
+            <div className="sub-header">
+              Here are a few projects I've worked on
+            </div>
+            <div className="previews">
+              <img src="#" alt="super-hero-search" />
+              <img src="#" alt="would-you-rather" />
+              <img src="#" alt="my-reads" />
+            </div>
+            <div className="more-info">
+              Checkout other projects I've created on{" "}
+              <a className="name" href="https://github.com/AbrahamLara">
+                GitHub
+              </a>
+              .
+            </div>
+            <div className="more-info">
+              You can reach out to me on{" "}
+              <a
+                className="name"
+                href="https://www.linkedin.com/in/abraham-lara-granados/"
+              >
+                LinkedIn
+              </a>
+              .
             </div>
           </div>
         </div>

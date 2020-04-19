@@ -8,7 +8,9 @@ export default class Navbar extends React.Component {
       <Layout.Header className="Navbar">
         <span className="title">MySite</span>
         <ul className="links">
-          <li>about</li>
+          <li>
+            <a href="#about">about</a>
+          </li>
           <li>projects</li>
         </ul>
       </Layout.Header>

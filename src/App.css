@@ -3,7 +3,12 @@
   color: #2f2f2f !important;
 }
 
-.Content > #about {
+.name {
+  font-weight: 800 !important;
+}
+
+.Content > .splash-section {
+  user-select: none;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -13,4 +18,30 @@
   font-weight: 800;
   white-space: pre-line;
   line-height: 1.4em;
+}
+
+.Content > #about {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.Content > #about > .paragraphs {
+  width: 435px;
+}
+
+.Content > #about > .profile-pic {
+  width: 400px;
+  border-radius: 200px;
+}
+
+.Content > #about > .paragraphs > div {
+  font-size: x-large;
+  font-weight: 500;
+}
+
+.Content > #about > .paragraphs > div:not(:last-child) {
+  margin-bottom: 35px;
 }

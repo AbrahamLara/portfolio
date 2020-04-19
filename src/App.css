@@ -3,6 +3,11 @@
   color: #2f2f2f !important;
 }
 
+img {
+  color: white;
+  width: 100%;
+}
+
 .name {
   font-weight: 800 !important;
 }
@@ -64,16 +69,16 @@
   margin-bottom: 4.5em;
 }
 
-.Content > #projects > .main-sub > .previews > img {
+.Content > #projects > .main-sub > .previews > a {
   width: 300px;
   height: 169px;
   background-color: #2f2f2f;
   border-radius: 30px;
-  color: white;
+  border: thin solid gray;
   overflow: hidden;
 }
 
-.Content > #projects > .main-sub > .previews > img:not(:first-child) {
+.Content > #projects > .main-sub > .previews > a {
   margin-left: 3em;
 }
 

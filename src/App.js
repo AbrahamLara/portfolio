@@ -2,7 +2,10 @@ import React from "react";
 import "./App.css";
 import { Layout } from "antd";
 import Navbar from "./components/Navbar";
-import profilePic from "./profile_pic.jpg";
+import profilePic from "./images/profile_pic.jpg";
+import project1 from "./images/project_1.png";
+import project2 from "./images/project_2.png";
+import project3 from "./images/project_3.png";
 
 function App() {
   return (
@@ -43,9 +46,15 @@ function App() {
               Here are a few projects I've worked on
             </div>
             <div className="previews">
-              <img src="#" alt="super-hero-search" />
-              <img src="#" alt="would-you-rather" />
-              <img src="#" alt="my-reads" />
+              <a href="https://github.com/AbrahamLara/superhero-search">
+                <img src={project1} alt="super-hero-search" />
+              </a>
+              <a href="https://github.com/AbrahamLara/Would-You-Rather">
+                <img src={project2} alt="would-you-rather" />
+              </a>
+              <a href="https://github.com/AbrahamLara/MyReads">
+                <img src={project3} alt="my-reads" />
+              </a>
             </div>
             <div className="more-info">
               Checkout other projects I've created on{" "}

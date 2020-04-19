@@ -1,0 +1,21 @@
+.Navbar {
+  display: flex !important;
+  justify-content: space-between;
+  color: #2f2f2f !important;
+  background-color: white !important;
+}
+
+.Navbar > .title {
+  font-size: 20pt !important;
+  font-weight: 800 !important;
+}
+
+.Navbar > .links {
+  display: flex;
+  width: fit-content;
+  list-style-type: none;
+}
+
+.Navbar > .links > li:not(:first-child) {
+  margin-left: 3em;
+}

@@ -1,0 +1,16 @@
+.App > .Content {
+  background-color: white !important;
+  color: #2f2f2f !important;
+}
+
+.Content > #about {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4.3em;
+  text-align: center;
+  font-weight: 800;
+  white-space: pre-line;
+  line-height: 1.4em;
+}

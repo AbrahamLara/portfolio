@@ -5,9 +5,13 @@ import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <Layout>
+    <Layout className="App">
       <Navbar />
-      <Layout.Content></Layout.Content>
+      <Layout.Content className="Content">
+        <div id="about">
+          {`Welcome!\nIt's pretty simple.\nI love making web apps.`}
+        </div>
+      </Layout.Content>
       <Layout.Footer></Layout.Footer>
     </Layout>
   );

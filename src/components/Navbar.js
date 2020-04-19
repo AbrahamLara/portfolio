@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/Navbar.css";
-import { Menu, Layout } from "antd";
+import { Layout } from "antd";
 
 export default class Navbar extends React.Component {
   render() {

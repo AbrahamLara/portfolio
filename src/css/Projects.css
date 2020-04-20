@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 20px;
+  padding-top: 84px;
 }
 
 .Projects > .main-sub {
@@ -36,6 +36,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .Projects {
+    padding-top: 74px;
+  }
+
   .Projects > .main-sub > .previews {
     margin-bottom: 4.5em;
   }

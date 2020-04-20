@@ -4,7 +4,7 @@
   align-items: center;
   flex-direction: column;
   user-select: none;
-  margin-bottom: 54px;
+  padding-top: 84px;
 }
 
 .About > .profile-pic {
@@ -28,6 +28,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .About {
+    padding-top: 74px;
+  }
+
   .About > .paragraphs > div {
     font-size: x-large;
   }

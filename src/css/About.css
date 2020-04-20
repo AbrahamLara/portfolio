@@ -1,0 +1,59 @@
+.About {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  user-select: none;
+  margin-bottom: 54px;
+}
+
+.About > .profile-pic {
+  width: 200px;
+  border-radius: 200px;
+  margin-bottom: 45px;
+}
+
+.About > .paragraphs {
+  width: 80%;
+  margin: auto;
+}
+
+.About > .paragraphs > div {
+  font-size: 13pt;
+  font-weight: 500;
+}
+
+.About > .paragraphs > div:not(:last-child) {
+  margin-bottom: 35px;
+}
+
+@media screen and (min-width: 768px) {
+  .About > .paragraphs > div {
+    font-size: x-large;
+  }
+
+  .About > .profile-pic {
+    width: 300px;
+  }
+
+  .About > .paragraphs {
+    width: 80%;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .About {
+    height: 100vh;
+    flex-direction: row-reverse;
+  }
+
+  .About > .profile-pic {
+    width: 400px;
+    margin-bottom: 0;
+  }
+
+  .About > .paragraphs {
+    width: 435px;
+  }
+}

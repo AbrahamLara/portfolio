@@ -1,0 +1,30 @@
+.Main {
+  margin-top: 86px;
+  margin-bottom: 46px;
+  user-select: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  text-align: center;
+  font-weight: 800;
+  white-space: pre-line;
+  line-height: 1.4em;
+}
+
+@media screen and (min-width: 768px) {
+  .Main {
+    height: 100vh;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 4.3em;
+    padding-top: 0px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .Main {
+    font-size: 4.3em;
+    padding-top: 0px;
+  }
+}

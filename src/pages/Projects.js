@@ -12,12 +12,24 @@ export default function Projects() {
         <div className="previews">
           <a href="https://github.com/AbrahamLara/superhero-search">
             <img src={project1} alt="super-hero-search" />
+            <div>
+              SuperheroSearch allows you to look up your favorite superheroes
+              using the superhero API
+            </div>
           </a>
           <a href="https://github.com/AbrahamLara/Would-You-Rather">
             <img src={project2} alt="would-you-rather" />
+            <div>
+              A mock Would You Rather game where you can create polls as a fake
+              user
+            </div>
           </a>
           <a href="https://github.com/AbrahamLara/MyReads">
             <img src={project3} alt="my-reads" />
+            <div>
+              MyReads uses a books api provided by udacity to search and
+              organize books into sections
+            </div>
           </a>
         </div>
         <div className="more-info">

@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: center;
   padding-top: 84px;
+  user-select: none;
 }
 
 .Projects > .main-sub {
@@ -19,12 +20,16 @@
 
 .Projects > .main-sub > .previews > a {
   width: 300px;
-  height: 169px;
   margin-bottom: 20px;
-  background-color: #2f2f2f;
+}
+
+.Projects > .main-sub > .previews > a > img {
   border-radius: 30px;
   border: thin solid gray;
-  overflow: hidden;
+}
+
+.Projects > .main-sub > .previews > a > div {
+  margin-top: 10px;
 }
 
 .Projects > .main-sub > .sub-header {
